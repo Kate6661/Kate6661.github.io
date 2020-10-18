@@ -1,0 +1,223 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "default": {},
+    "additionalProperties": true,
+    "properties": {
+        "Студенты": {
+            "$id": "#/properties/Студенты",
+            "type": "object",
+            "title": "Студенты Schema",
+            "default": {},
+            "examples": [
+                {
+                  "Иванов": {
+                        "Мультимедиа": "3",
+                        "Веб-дизайн": "3",
+                        "Графика": "5"
+                    },
+                    "Петрова": {
+                        "Мультимедиа": "3",
+                        "Веб-дизайн": "4",
+                        "Графика": "5",
+                        "Логика": "5"
+                    },
+                    "Сидоренко": {
+                        "Мультимедиа": "3",
+                        "Веб-дизайн": "4",
+                        "Графика": "5",
+                        "Логика": "5",
+                    },
+                }
+            ],
+            "additionalProperties": true,
+            "required": [
+                "Иванов",
+                "Петрова",
+                "Сидоренко"
+            ],
+            "properties": {
+                "Иванов": {
+                    "$id": "#/properties/Студенты/properties/Иванов",
+                    "type": "object",
+                    "title": "Иванов Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                        {
+                            "Мультимедиа": "3",
+                            "Веб-дизайн": "3",
+                            "Графика": "5"
+                        }
+                    ],
+                    "additionalProperties": true,
+                    "required": [
+                        "Мультимедиа",
+                        "Веб-дизайн",
+                        "Графика"
+                    ],
+                    "properties": {
+                        "Мультимедиа": {
+                            "$id": "#/properties/Студенты/properties/Иванов/properties/Мультимедиа",
+                            "type": "string",
+                            "title": "Мультимедиа Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "3"
+                            ]
+                        },
+                        "Веб-дизайн": {
+                            "$id": "#/properties/Студенты/properties/Иванов/properties/Веб-дизайн",
+                            "type": "string",
+                            "title": "Веб-дизайн Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "3"
+                            ]
+                        },
+                        "Графика": {
+                            "$id": "#/properties/Студенты/properties/Иванов/properties/Графика",
+                            "type": "string",
+                            "title": "Графика Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "5"
+                            ]
+                        }
+                    }
+                },
+                "Петрова": {
+                    "$id": "#/properties/Студенты/properties/Петрова",
+                    "type": "object",
+                    "title": "Петрова Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                        {
+                            "Мультимедиа": "3",
+                            "Веб-дизайн": "4",
+                            "Графика": "5",
+                            "Логика": "5"
+                        }
+                    ],
+                    "additionalProperties": true,
+                    "required": [
+                        "Мультимедиа",
+                        "Веб-дизайн",
+                        "Графика",
+                        "Логика"
+                    ],
+                    "properties": {
+                        "Мультимедиа": {
+                            "$id": "#/properties/Студенты/properties/Петрова/properties/Мультимедиа",
+                            "type": "string",
+                            "title": "Мультимедиа Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "3"
+                            ]
+                        },
+                        "Веб-дизайн": {
+                            "$id": "#/properties/Студенты/properties/Петрова/properties/Веб-дизайн",
+                            "type": "string",
+                            "title": "Веб-дизайн Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "4"
+                            ]
+                        },
+                        "Графика": {
+                            "$id": "#/properties/Студенты/properties/Петрова/properties/Графика",
+                            "type": "string",
+                            "title": "Графика Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "5"
+                            ]
+                        },
+                        "Логика": {
+                            "$id": "#/properties/Студенты/properties/Петрова/properties/Логика",
+                            "type": "string",
+                            "title": "Логика Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "5"
+                            ]
+                        }
+                    }
+                },
+                "Сидоренко": {
+                    "$id": "#/properties/Студенты/properties/Сидоренко",
+                    "type": "object",
+                    "title": "Сидоренко Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                        {
+                           "Мультимедиа": "3",
+                           "Веб-дизайн": "4",
+                           "Графика": "5",
+                           "Логика": "5",
+                        }
+                    ],
+                    "additionalProperties": true,
+                    "required": [
+                        "Мультимедиа",
+                        "Веб-дизайн",
+                        "Графика",
+                        "Логика"
+                    ],
+                    "properties": {
+                        "Мультимедиа": {
+                            "$id": "#/properties/Студенты/properties/Сидоренко/properties/Мультимедиа",
+                            "type": "string",
+                            "title": "Мультимедиа Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "3"
+                            ]
+                        },
+                        "Веб-дизайн": {
+                            "$id": "#/properties/Студенты/properties/Сидоренко/properties/Веб-дизайн",
+                            "type": "string",
+                            "title": "Веб-дизайн Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "4"
+                            ]
+                        },
+                        "Графика": {
+                            "$id": "#/properties/Студенты/properties/Сидоренко/properties/Графика",
+                            "type": "string",
+                            "title": "Графика Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "5"
+                            ]
+                        },
+                        "Логика": {
+                            "$id": "#/properties/Студенты/properties/Сидоренко/properties/Логика",
+                            "type": "string",
+                            "title": "Логика Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "5"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
