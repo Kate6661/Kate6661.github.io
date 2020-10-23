@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT таблица (студент+)>
+<!ELEMENT студент (отметка+)>
+<!ELEMENT отметка (#PCDATA)>
+<!ATTLIST студент имя CDATA #REQUIRED>
+<!ATTLIST отметка дисциплина CDATA #REQUIRED>
+
+http://kodaktor.ru/j/dtd_b29ac
