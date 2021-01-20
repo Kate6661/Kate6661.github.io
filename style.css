@@ -2,10 +2,10 @@ body {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 32px;
   color: #222222;
-  background-color: #f2f4f6;
+  background-color: #ffffff;
   background-image: url("https://image.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-936.jpg");
   background-repeat: no-repeat;
   background-position: top center;
@@ -39,11 +39,6 @@ body {
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
-}
-
-.header-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
 }
 
 .hero-image {
@@ -185,9 +180,4 @@ body {
 .footer-email {
   padding-left: 30px;
   background-image: url("img/icon-email-footer.svg");
-}
-
-.footer-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
 }
