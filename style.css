@@ -41,11 +41,11 @@ body {
   background-image: url("img/icon-email-header.svg");
 }
 
-.hero-image {
+.5-image {
   margin-bottom: 620px;
 }
 
-.hero-image .container {
+.5-image .container {
   max-width: 1408px;
   text-align: center;
 }
@@ -58,7 +58,7 @@ body {
   font-weight: 400;
 }
 
-.hero-image p {
+.5-image p {
   margin: 0;
   font-size: 32px;
   line-height: 48px;
@@ -154,22 +154,4 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
-}
-
-.page-footer {
-  padding: 40px 0;
-  background-color: #00417d;
-}
-
-.page-footer a {
-  margin-left: 56px;
-  color: #ffffff;
-  text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.footer-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
 }
