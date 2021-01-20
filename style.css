@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #ffffff;
-  background-image: url("https://image.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-936.jpg");
+  background-image: url("img/5.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -103,14 +103,6 @@ body {
   padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
-}
-
-.skill-html {
-  background-image: url("img/icon-html.svg");
-}
-
-.skill-css {
-  background-image: url("img/icon-css.svg");
 }
 
 .level {
